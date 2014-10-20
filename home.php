@@ -23,6 +23,7 @@ include "top.php";
         <p>This site is about bringing attention to safe environmental practices that
         everyone can take part in; these practices will help to reduce the real 
         and potentially devastating effects of <b>global warming.</b></p>
+</article>
         
         
         
