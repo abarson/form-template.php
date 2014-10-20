@@ -1,10 +1,10 @@
-+<?php
-+include "top.php";
+<?php
+include "top.php";
 include "header.php";
 include "nav.php";
-+?>
-+<article id="main">
-+    <h2>Home</h2>
+?>
+<article id="main">
+    <h2>Home</h2>
         <hr />
         <figure style="float: right">
             <img src="icon.gif" alt="Chris" width="375" height="450" />
@@ -120,4 +120,4 @@ if ($debug)
 ?>
     </body>
 </html>
-+
+
