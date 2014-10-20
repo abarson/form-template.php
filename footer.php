@@ -1,4 +1,4 @@
-+<!-- ######################     Footer  #################################### -->
-+<footer>
-+	<p>Adam Barson Incorporated</p>
-+</footer>
+<!-- ######################     Footer  #################################### -->
+<footer>
+	<p>Adam Barson Incorporated</p>
+</footer>
