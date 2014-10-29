@@ -19,24 +19,24 @@
 //
 // PATH SETUP
 //
+//  $domain = "https://www.uvm.edu" or http://www.uvm.edu;
+$domain = "http://";
+if (isset($_SERVER['HTTPS'])) {
+    if ($_SERVER['HTTPS']) {
+        $domain = "https://";
+    }
+}
 
+$server = htmlentities($_SERVER['SERVER_NAME'], ENT_QUOTES, "UTF-8");
 
-
-
-
-
-
-
-
-
-
+$domain .= $server;
 
 $phpSelf = htmlentities($_SERVER['PHP_SELF'], ENT_QUOTES, "UTF-8");
 
 $path_parts = pathinfo($phpSelf);
 
 if ($debug){
- 
+    print "<p>Domain" . $domain;
     print "<p>php Self". $phpSelf;
     print "<p>Path Parts<pre>";
     print_r($path_parts);
@@ -48,7 +48,7 @@ if ($debug){
 // inlcude all libraries
 //
 
-
+require_once('lib/security.php');
 
 
 
